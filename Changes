@@ -1,0 +1,6 @@
+0.07  Fri, 16 Sep 2016 01:20:00 +0300
+  - Update bitcoind JSON-RPC API to 0.13.99
+
+0.06  Tue, 11 Aug 2016 00:00:00 +0300
+  - Update bitcoind JSON-RPC API to 0.12.1
+  - Tune bitcoind connection for mimimum latency

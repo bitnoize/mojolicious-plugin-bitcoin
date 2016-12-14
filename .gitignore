@@ -1,0 +1,17 @@
+.*
+!.gitignore
+!.perltidyrc
+*~
+blib
+Makefile*
+!Makefile.PL
+*META.*
+MANIFEST*
+!MANIFEST.SKIP
+pm_to_blib
+Makefile
+debian/files
+debian/debhelper-build-stamp
+debian/libmojolicious-plugin-bitcoin-perl
+debian/libmojolicious-plugin-bitcoin-perl.substvars
+debian/libmojolicious-plugin-bitcoin-perl.debhelper.log

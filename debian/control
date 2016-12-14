@@ -1,0 +1,15 @@
+Source: libmojolicious-plugin-bitcoin-perl
+Section: perl
+Priority: optional
+Maintainer: Dmitry Krutikov <mitya@openmailbox.org>
+Build-Depends: debhelper (>= 9),
+  libmojolicious-perl (>= 5.54)
+Build-Depends-Indep: perl, perl-modules
+Standards-Version: 3.9.2
+Homepage: https://github.com/bitnoize/mojolicious-plugin-bitcoin
+
+Package: libmojolicious-plugin-bitcoin-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends},
+  libmojolicious-perl (>= 5.54)
+Description: Bitcoin JSON-RPC client for Mojolicious
